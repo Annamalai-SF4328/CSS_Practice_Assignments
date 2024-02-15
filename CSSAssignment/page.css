@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(128,128,128);
+}
+#main
+{
+    display: flex;
+    padding: 100px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#left
+{
+    position: relative;
+    background-color: rgb(155, 59, 70);
+    float: left;
+    padding: 50px;
+    color: white;
+}
+#right
+{
+    position: relative;
+    padding: 50px 20px 0 30px;
+    float: left;
+    height: 550px;
+    background-color: white;
+}
+.facebook
+{
+    background-color: rgb(56, 87, 153);
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+img .facebook .google .twitter
+{
+    position: absolute;
+    align-items: center;
+}
+.social
+{
+    font-size: 15px;
+    width: 345px;
+    padding: 10px;
+}
+
+.google
+{
+    background-color: rgb(241,64,50);
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.twitter
+{
+    background-color: rgb(36,169,229);
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 40px
+}
+h3
+{
+    font-size: 25px;
+}
+
+.user
+{
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+}
+
+#login
+{
+    box-sizing: border-box;
+    width: 25%;
+    height: 40px;
+    font-size: large;
+    background-color: #f51313b3;
+    color: #fff;
+    border: none;
+}
